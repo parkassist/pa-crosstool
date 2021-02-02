@@ -139,7 +139,7 @@ TARGET_SYSTEM_NAME = {
 
 COMPILE_FLAGS = {
     "k8":      ["-msse4.2"],
-    "armv7a":  ["-march=armv7-a", "-mfpu=neon-vfpv4"],
+    "armv7a":  ["-march=armv7-a", "-mfloat-abi=hard", "-mfpu=vfpv3-d16"],
     "armv6":   [],
     "aarch64": ["-march=armv8-a"],
     "riscv64": [],
